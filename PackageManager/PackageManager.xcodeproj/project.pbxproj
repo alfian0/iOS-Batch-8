@@ -19,6 +19,14 @@
 		EDE0980021243B4300758027 /* ToDoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE097FE21243B4300758027 /* ToDoListController.swift */; };
 		EDE09804212513DE00758027 /* CreateToDoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE09802212513DE00758027 /* CreateToDoController.swift */; };
 		EDE09805212513DE00758027 /* CreateToDoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE09803212513DE00758027 /* CreateToDoController.xib */; };
+		EDE098092125BB9400758027 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE098072125BB9400758027 /* LoginController.swift */; };
+		EDE0980A2125BB9400758027 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE098082125BB9400758027 /* LoginController.xib */; };
+		EDE0980D2125BE2A00758027 /* StickyLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0980B2125BE2A00758027 /* StickyLoginController.swift */; };
+		EDE0980E2125BE2A00758027 /* StickyLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE0980C2125BE2A00758027 /* StickyLoginController.xib */; };
+		EDE098112125BF2000758027 /* StackViewLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE0980F2125BF2000758027 /* StackViewLoginController.swift */; };
+		EDE098122125BF2000758027 /* StackViewLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE098102125BF2000758027 /* StackViewLoginController.xib */; };
+		EDE098152125C02500758027 /* ScrollViewLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE098132125C02500758027 /* ScrollViewLoginController.swift */; };
+		EDE098162125C02500758027 /* ScrollViewLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE098142125C02500758027 /* ScrollViewLoginController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +59,14 @@
 		EDE097FE21243B4300758027 /* ToDoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListController.swift; sourceTree = "<group>"; };
 		EDE09802212513DE00758027 /* CreateToDoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToDoController.swift; sourceTree = "<group>"; };
 		EDE09803212513DE00758027 /* CreateToDoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateToDoController.xib; sourceTree = "<group>"; };
+		EDE098072125BB9400758027 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		EDE098082125BB9400758027 /* LoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		EDE0980B2125BE2A00758027 /* StickyLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyLoginController.swift; sourceTree = "<group>"; };
+		EDE0980C2125BE2A00758027 /* StickyLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickyLoginController.xib; sourceTree = "<group>"; };
+		EDE0980F2125BF2000758027 /* StackViewLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLoginController.swift; sourceTree = "<group>"; };
+		EDE098102125BF2000758027 /* StackViewLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackViewLoginController.xib; sourceTree = "<group>"; };
+		EDE098132125C02500758027 /* ScrollViewLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLoginController.swift; sourceTree = "<group>"; };
+		EDE098142125C02500758027 /* ScrollViewLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewLoginController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +124,7 @@
 			children = (
 				EDE097FC21243B2700758027 /* ToDoList */,
 				EDE09801212513C400758027 /* CreateToDo */,
+				EDE098062125BB8100758027 /* Login */,
 				EDA74154212194FC00AADD05 /* AppDelegate.swift */,
 				EDA74156212194FC00AADD05 /* ViewController.swift */,
 				EDA7415B212194FD00AADD05 /* Assets.xcassets */,
@@ -134,6 +151,21 @@
 				EDE09803212513DE00758027 /* CreateToDoController.xib */,
 			);
 			path = CreateToDo;
+			sourceTree = "<group>";
+		};
+		EDE098062125BB8100758027 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EDE098072125BB9400758027 /* LoginController.swift */,
+				EDE098082125BB9400758027 /* LoginController.xib */,
+				EDE0980B2125BE2A00758027 /* StickyLoginController.swift */,
+				EDE0980C2125BE2A00758027 /* StickyLoginController.xib */,
+				EDE0980F2125BF2000758027 /* StackViewLoginController.swift */,
+				EDE098102125BF2000758027 /* StackViewLoginController.xib */,
+				EDE098132125C02500758027 /* ScrollViewLoginController.swift */,
+				EDE098142125C02500758027 /* ScrollViewLoginController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +232,11 @@
 			files = (
 				EDA7415F212194FD00AADD05 /* LaunchScreen.storyboard in Resources */,
 				EDA7415C212194FD00AADD05 /* Assets.xcassets in Resources */,
+				EDE0980E2125BE2A00758027 /* StickyLoginController.xib in Resources */,
+				EDE098122125BF2000758027 /* StackViewLoginController.xib in Resources */,
 				EDE097FF21243B4300758027 /* ToDoListController.xib in Resources */,
+				EDE098162125C02500758027 /* ScrollViewLoginController.xib in Resources */,
+				EDE0980A2125BB9400758027 /* LoginController.xib in Resources */,
 				EDE09805212513DE00758027 /* CreateToDoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,10 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA74157212194FC00AADD05 /* ViewController.swift in Sources */,
+				EDE098092125BB9400758027 /* LoginController.swift in Sources */,
+				EDE098152125C02500758027 /* ScrollViewLoginController.swift in Sources */,
 				EDE09804212513DE00758027 /* CreateToDoController.swift in Sources */,
 				EDE0980021243B4300758027 /* ToDoListController.swift in Sources */,
+				EDE0980D2125BE2A00758027 /* StickyLoginController.swift in Sources */,
 				EDB1D2372122EA0000E65DFD /* PostModel.swift in Sources */,
 				EDA74155212194FC00AADD05 /* AppDelegate.swift in Sources */,
+				EDE098112125BF2000758027 /* StackViewLoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
